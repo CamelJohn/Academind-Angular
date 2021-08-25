@@ -1,0 +1,22 @@
+.online {
+  border: 1px solid green;
+  background-color: palegreen;
+}
+
+.offline {
+  border: 1px solid red;
+  background-color: mistyrose;
+}
+
+.online,
+.offline {
+  cursor: pointer;
+  border-radius: 5px;
+  margin-top: 10px;
+  padding: 20px;
+}
+
+.offline:hover,
+.online:hover {
+  opacity: 0.75;
+}
