@@ -1,0 +1,11 @@
+<p *ngIf="show">Secret Password = tuna</p>
+<button class="btn btn-submit" (click)="toggleParagraph()">
+  Display Details
+</button>
+<br />
+<div
+  *ngFor="let click of clicks; index as i"
+  [ngStyle]="{ backgroundColor: backgroundColor(i), color: color(i) }"
+>
+  {{ i }} - clicked at: {{ click }}
+</div>

@@ -7,9 +7,10 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
+import { Cmp3Component } from './exercises/ex3/cmp3/cmp3.component';
 
 @NgModule({
-  declarations: [AppComponent, ServerComponent, ServersComponent],
+  declarations: [AppComponent, ServerComponent, ServersComponent, Cmp3Component],
   imports: [BrowserModule, AppRoutingModule, FormsModule, HttpClientModule],
   providers: [],
   bootstrap: [AppComponent],
