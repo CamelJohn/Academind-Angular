@@ -1,0 +1,9 @@
+input {
+  outline: none;
+}
+
+p,
+input {
+  font-size: 2em;
+  font-family: sans-serif;
+}
